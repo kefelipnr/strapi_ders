@@ -17,6 +17,12 @@
     "slug": {
       "type": "uid",
       "targetField": "Ad"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "category"
     }
   }
 }
