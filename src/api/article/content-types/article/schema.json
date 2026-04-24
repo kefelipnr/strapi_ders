@@ -1,29 +1,23 @@
 {
-  "kind": "singleType",
-  "collectionName": "homepages",
+  "kind": "collectionType",
+  "collectionName": "articles",
   "info": {
-    "singularName": "homepage",
-    "pluralName": "homepages",
-    "displayName": "Homepage"
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Hero_Title": {
+    "Baslik": {
       "type": "string"
     },
-    "SEO_Description": {
+    "Icerik": {
       "type": "text"
     },
-    "BizKimiz": {
-      "type": "blocks"
-    },
-    "Vizyon": {
-      "type": "text"
-    },
-    "OfisResmi": {
+    "KapakResmi": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
