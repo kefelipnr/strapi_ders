@@ -447,6 +447,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    Govde_Bilesenleri: Schema.Attribute.DynamicZone<['blog-parcalari.slogan']>;
     Icerik: Schema.Attribute.Text;
     KapakResmi: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios'
